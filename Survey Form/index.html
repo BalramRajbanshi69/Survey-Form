@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+       <h1>Survey Form:</h1> 
+    </header>
+    <main>
+        <form>
+            <div class="customer-div">
+            <h2>Customer Name</h2>
+            <div class="main-first-class">
+            <div class="first-input">
+            <input type="text" name="first-name" id="first-name" required>
+            <label for="first-name">Enter Your First Name</label>
+            </div>
+            <div class="first-input">
+            <input type="text" name="last-name" id="last-name"required>
+            <label for="last-name">Enter last First Name</label>
+            </div>
+            </div>
+            </div>
+            <div class="address-div">
+                <h2>Address</h2>
+                <div class="div-street-address">
+                <input type="text" name="stress-address" id="street-address"required>
+                <label for="street-address">Street Address</label>
+                </div>
+                <div class="div-street-address2">
+                    <input type="text" name="street2" id="address-line2"required>
+                    <label for="address-line2">Street Address Line 2</label>
+                </div>
+                <div class="city-state">
+                    <div class="city-first">
+                <input type="text" name="city" id="city"required>
+                <label for="city">City</label>
+                </div>
+                <div class="city-first">
+                <input type="text" name="state" id="state"required>
+                <label for="state">State</label>
+                </div>
+                </div>
+                <div class="zip">
+                    <input type="number" name="number" id="number-zip"required>
+                    <label for="number-zip">Zip</label>
+                </div>
+                <div class="country">
+                    <select name="country" id="country-name">
+                        <option value="">Select Country</option>
+                        <option value="nepal">Nepal</option>
+                        <option value="india">India</option>
+                        <option value="china">China</option>
+                        <option value="bangladesh">Bangladesh</option>
+                        <option value="sri lanka">Sri Lanka</option>
+                    </select>
+                    <label for="country-name">Select Country</label>
+                </div>
+                <div class="contact">
+                    <h2>Contact</h2>
+                    <div class="contact-begin">
+                    <div class="contact-first">
+                    <input type="number" name="number" id="phone-numb"required>
+                    <label for="phone-numb">Phone</label>
+                    </div>
+                    <div class="contact-first">
+                    <input type="email" name="email" id="email"required>
+                    <label for="email">Email</label>
+                    </div>
+                    </div>
+                </div>
+                <div class="personal-details">
+                    <h2>Personal Details</h2>
+                    <div class="male-div">
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    </div>
+                    <div class="female-div">
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                    </div>
+                    <div class="other-div">
+                        <input type="radio" name="gender" id="other">
+                        <label for="other">Other</label>
+                    </div>
+                </div>
+                <div class="ratings">
+                    <h2>Ratings</h2>
+                    <div class="rating-1">
+                        <h3>Rating 1:</h3>
+                        <input type="radio" name="rating1" id="bad">
+                        <label for="bad">Bad</label>
+                        <input type="radio" name="rating1" id="good">
+                        <label for="good">Good</label>
+                        <input type="radio" name="rating1" id="excellent">
+                        <label for="excellent">Excellent</label>
+                    </div>
+                    <div class="rating-2">
+                        <h3>Rating 2:</h3>
+                        <input type="radio" name="rating2" id="bad2">
+                        <label for="bad2">Bad</label>
+                        <input type="radio" name="rating2" id="good2">
+                        <label for="good2">Good</label>
+                        <input type="radio" name="rating2" id="excellent2">
+                        <label for="excellent2">Excellent</label>
+                    </div>
+                    <div class="rating-3">
+                        <h3>Rating 3:</h3>
+                        <input type="radio" name="rating3" id="bad3">
+                        <label for="bad3">Bad</label>
+                        <input type="radio" name="rating3" id="good3">
+                        <label for="good3">Good</label>
+                        <input type="radio" name="rating3" id="excellent3">
+                        <label for="excellent3">Excellent</label>
+                    </div>
+                    <div class="rating-4">
+                        <h3>Rating 4:</h3>
+                        <input type="radio" name="rating4" id="bad4">
+                        <label for="bad4">Bad</label>
+                        <input type="radio" name="rating4" id="good4">
+                        <label for="good4">Good</label>
+                        <input type="radio" name="rating4" id="excellent4">
+                        <label for="excellent4">Excellent</label>
+                    </div>
+                    <div class="rating-5">
+                        <h3>Rating 5:</h3>
+                        <input type="radio" name="rating5" id="bad5">
+                        <label for="bad5">Bad</label>
+                        <input type="radio" name="rating5" id="good5">
+                        <label for="good5">Good</label>
+                        <input type="radio" name="rating5" id="excellent5">
+                        <label for="excellent5">Excellent</label>
+                    </div>
+                    <div class="rating-6">
+                        <h3>Rating 6:</h3>
+                        <input type="radio" name="rating6" id="bad6">
+                        <label for="bad6">Bad</label>
+                        <input type="radio" name="rating6" id="good6">
+                        <label for="good6">Good</label>
+                        <input type="radio" name="rating6" id="excellent6">
+                        <label for="excellent6">Excellent</label>
+                    </div>
+                    <div class="rating-7">
+                        <h3>Rating 7:</h3>
+                        <input type="radio" name="rating7" id="bad7">
+                        <label for="bad7">Bad</label>
+                        <input type="radio" name="rating7" id="good7">
+                        <label for="good7">Good</label>
+                        <input type="radio" name="rating7" id="excellent7">
+                        <label for="excellent7">Excellent</label>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <button type="submit">Submit</button>
+    </footer>
+    </div>
+</body>
+</html>
